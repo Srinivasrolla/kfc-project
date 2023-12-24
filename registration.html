@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup Form</h1>
+        <form onsubmit="return funsignup()" action="/login.html">
+            <label for="rusername">Username :</label>
+            <input type="text" name="" id="rusername" placeholder="Enter username" required><br><br>
+            <label for="rpassword">Password :</label>
+            <input type="password" name="" id="rpassword" placeholder="Enter password" required><br><br>
+            <label for="againrpassword">Password again :</label>
+            <input type="password" name="" id="againrpassword" placeholder="Enter your password again" required><br><br>
+            <div id="error-message"></div>
+            <center><button type="submit" class="btn btn-secondary">SignUP</button></center><br>
+            If Already signup? <a href="/login.html"> Login Here</a>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Page</title>
+</head>
+<body>
+  <h2>Registration</h2>
+  <form id="registrationForm">
+    <input type="text" id="regUsername" placeholder="Username" required><br>
+    <input type="email" id="regEmail" placeholder="Email" required><br>
+    <input type="password" id="regPassword" placeholder="Password" required><br>
+    <button type="submit">Register</button>
+  </form>
+
+  <p>Already have an account? <a href="login.html">Login here</a>.</p>
+
+  <script src="script.js"></script>
+</body>-->
